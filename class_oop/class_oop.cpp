@@ -35,6 +35,16 @@ int main() {
 	Mahasiswa mhs;
 	Matakuliah mk;
 
+	cout << "\nMasukan NIM = ";
+	cin >> mhs.nim;
+	cout << "\nMasukan Nama = ";
+	cin >> mhs.nama;
+
+	mk.inputMk();
+	mhs.tampil();
+	mk.tampil();
+
+	system("pause");
 	
 }
 
