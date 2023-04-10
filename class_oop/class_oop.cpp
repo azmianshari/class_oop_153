@@ -29,6 +29,13 @@ public :
 		cout << "\nKode MK = " << kode;
 		cout << "\nNama MK = " << namaMk;
 	}
+};
+
+int main() {
+	Mahasiswa mhs;
+	Matakuliah mk;
 
 	
-};
+}
+
+
